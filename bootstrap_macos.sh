@@ -2,6 +2,8 @@
 
 # Get SSH key
 curl https://github.com/sgaudet.keys | tee -a ~/.ssh/authorized_keys
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh | tee -a ~/.git-prompt.sh
+
 
 # Install command-line tools using Homebrew.
 # https://brew.sh/
@@ -27,7 +29,7 @@ brew install moreutils
 brew install findutils
 # Install a modern version of Bash.
 brew install bash
-brew install bash-completion2
+brew install bash-completion
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
