@@ -3,7 +3,7 @@
 # Get SSH key
 curl https://github.com/sgaudet.keys | tee -a ~/.ssh/authorized_keys
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh | tee -a ~/.git-prompt.sh
-
+wget -O ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 # Install command-line tools using Homebrew.
 # https://brew.sh/
@@ -51,6 +51,7 @@ brew install gmp
 # Install tools
 brew install tmux
 brew install nmap
+brew install wget
 
 # Remove outdated versions from the cellar.
 brew cleanup
