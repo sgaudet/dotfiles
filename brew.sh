@@ -1,13 +1,6 @@
 #!/usr/bin/env bash
 
-# Get SSH key
-curl https://github.com/sgaudet.keys | tee -a ~/.ssh/authorized_keys
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh | tee -a ~/.git-prompt.sh
-wget -O ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
-
 # Install command-line tools using Homebrew.
-# https://brew.sh/
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -29,7 +22,7 @@ brew install moreutils
 brew install findutils
 # Install a modern version of Bash.
 brew install bash
-brew install bash-completion
+brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
@@ -45,13 +38,12 @@ brew install vim
 brew install grep
 brew install openssh
 brew install screen
-brew install php
-brew install gmp
 
 # Install tools
 brew install tmux
 brew install nmap
 brew install wget
+brew install telnet
 
 # Remove outdated versions from the cellar.
 brew cleanup
