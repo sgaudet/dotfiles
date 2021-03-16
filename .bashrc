@@ -13,3 +13,7 @@ else
 fi
 
 export CLICOLOR=1
+
+# Suppress zsh default shell message in macOS
+# https://apple.stackexchange.com/questions/371997/suppressing-the-default-interactive-shell-is-now-zsh-message-in-macos-catalina
+export BASH_SILENCE_DEPRECATION_WARNING=1
