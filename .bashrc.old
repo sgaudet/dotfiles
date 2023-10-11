@@ -1,3 +1,4 @@
+# NOTE: Not in use right now (2023/10) - saving if needed later
 #macOS default
 #[ -n "$PS1" ] && source ~/.bash_profile;
 # RHEL-like PS1

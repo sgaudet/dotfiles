@@ -1,0 +1,27 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "buo/cask-upgrade"
+brew "mas"
+brew "docker"
+brew "docker-compose"
+brew "minikube"
+cask "bitwarden"
+cask "rectangle"
+cask "logitech-options"
+cask "visual-studio-code"
+cask "microsoft-remote-desktop"
+cask "microsoft-edge"
+cask "slack"
+cask "github"
+mas "WireGuard", id: 1451685025
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Bitwarden", id: 1352778147
+mas "GarageBand", id: 682658836
+mas "Xcode", id: 497799835
+mas "Pages", id: 409201541
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft To Do", id: 1274495053
+mas "OneDrive", id: 823766827
