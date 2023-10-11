@@ -1,6 +1,6 @@
 # dotfiles
 
-./bootstrap.sh #dotfiles
+./dotfiles.sh #dotfiles
 
 ./macos.sh #macOS settings
 
