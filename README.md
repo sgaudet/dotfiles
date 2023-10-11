@@ -11,5 +11,6 @@ TODO:
 - vscode config
 - BT & Volume in menu bar
 - Dock icon arrangement
+- Audio config: https://github.com/deweller/switchaudio-osx
 
 Thanks to: https://github.com/mathiasbynens
