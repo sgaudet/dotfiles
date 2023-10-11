@@ -1,7 +1,9 @@
 # dotfiles
 
 ./bootstrap.sh #dotfiles
+
 ./macos.sh #macOS settings
+
 ./brew.sh #Brew apps
 
 TODO:
