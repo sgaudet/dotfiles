@@ -1,15 +1,13 @@
 # dotfiles
 
-./bootstrap.sh
-./bootstrap_macos.sh
-./bootstrap_rhel.sh
+./bootstrap.sh #dotfiles
+./macos.sh #macOS settings
+./brew.sh #Brew apps
 
 TODO:
-- Git color in terminal
-- tmux
-- vscode
-- vim plugins
-- Windows bootstrap
-- override default colors
+- Terminal.app config
+- vscode config
+- BT & Volume in menu bar
+- Dock icon arrangement
 
 Thanks to: https://github.com/mathiasbynens
